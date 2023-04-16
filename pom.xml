@@ -29,7 +29,7 @@
 
 		<pluginManagement>
 			<plugins>
-				<plugin>
+<!-- 				<plugin>
 					<groupId>org.sonarsource.scanner.maven</groupId>
 					<artifactId>sonar-maven-plugin</artifactId>
 					<version>3.7.0.1746</version>
@@ -40,7 +40,7 @@
 					<artifactId>sonar-maven-plugin</artifactId>
 					<version>3.7.0.1746</version>
 				</plugin>
-
+ -->
 
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
@@ -142,12 +142,12 @@
 
 	<!-- Add Any needed Dependency / Library -->
 	<dependencies>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
 			<version>3.3.3</version>
 
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
