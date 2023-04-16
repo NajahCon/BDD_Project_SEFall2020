@@ -9,7 +9,7 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-
+ 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<jacoco.it.execution.data.file>${project.build.directory}/coverage-reports/jacoco-it.exec</jacoco.it.execution.data.file>
@@ -17,6 +17,9 @@
 		<jacoco.version>0.7.5.201505241946</jacoco.version>
 		<skip.integration.tests>true</skip.integration.tests>
 		<skip.unit.tests>false</skip.unit.tests>
+		
+		<sonar.organization>najahcon</sonar.organization>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<build>
